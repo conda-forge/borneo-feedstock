@@ -1,5 +1,5 @@
 {% set name = "borneo" %}
-{% set version = "5.3.7" %}
+{% set version = "5.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/borneo-{{ version }}.tar.gz
-  sha256: e1205db61d29fb2c7bbfb71de7021d7d933048c950314c97aa39c058efadfb7c
+  sha256: 7ceb2d4785eb18f766757691bbaf077160cee053495a843afa0c90291817e385
 
 build:
   noarch: python
