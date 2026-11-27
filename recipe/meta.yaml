@@ -1,14 +1,14 @@
 {% set name = "borneo" %}
-{% set version = "5.5.0" %}
-{% set python_min = "3.11" %}
+{% set version = "5.6.1" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/borneo-{{ version }}.tar.gz
-  sha256: 8b4b19c349e9fc4003471b6258b33e1d21ecfde743216734d770011eafd2f3d5
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/borneo-{{ version }}.tar.gz
+  sha256: 51d2d5325ff16bfb588e938edadfea7c387f27b4e268120e863655d183d3a5c7
 
 build:
   noarch: python
