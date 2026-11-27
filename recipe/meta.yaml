@@ -1,6 +1,6 @@
 {% set name = "borneo" %}
 {% set version = "5.6.1" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
